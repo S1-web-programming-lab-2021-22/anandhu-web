@@ -6,7 +6,7 @@ $my_array = array( "Virat Kohli", "Shikhar Dhawan", "M.S Dhoni","Suresh Raina","
 
 ?>
 <h1 style="text-align:center"><u>Indian Cricket Players</u></h1>
-<table border=Â”1Â” align="center">
+<table border=”1” align="center">
 <tr>
 <th>Sl.No</th>
 <th>Name of Players</th>
@@ -15,7 +15,7 @@ $my_array = array( "Virat Kohli", "Shikhar Dhawan", "M.S Dhoni","Suresh Raina","
 <?php
 $arraysize=sizeof($my_array);
 for($i=0;$i<$arraysize;$i++)
-{dset4xc j
+{
 ?>
 <tr>
 <td><?php echo $i+1; ?></td>
@@ -27,3 +27,4 @@ for($i=0;$i<$arraysize;$i++)
 ?>
 </table>
 </body>
+</html>
